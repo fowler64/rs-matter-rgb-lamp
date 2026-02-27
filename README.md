@@ -27,6 +27,8 @@ _fig 1_: The wiring used for the above mentioned hardware.
 
 ### Build
 
+*For `esp32c6` there was an [issue](https://github.com/sysgrok/rs-matter-embassy/issues/33) connecting to wifi which can be manually [patched](https://github.com/sysgrok/rs-matter-embassy/commit/bc6eb2b04f0ec95b403266bc14a024cbee3d1469) if using this `Cargo.toml`*
+
 The default features build for `esp32c6`.
 
 ```

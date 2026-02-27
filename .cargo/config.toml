@@ -2,6 +2,7 @@
 #target = "riscv32imc-unknown-none-elf"
 target = "riscv32imac-unknown-none-elf"
 #target = "xtensa-esp32-none-elf"
+target-dir = "/dev/shm/rs-matter-rgb-lamp" # build in ram
 
 [target.'cfg(all(target_arch = "riscv32", target_os = "none"))']
 runner = "espflash flash --monitor"
