@@ -39,8 +39,11 @@ If not building in the Nix devenv, `+nightly` may be required.
 
 ### Flash
 
+Run either of these commands depending which example to flash.
+
 ```
 espflash flash target/riscv32imac-unknown-none-elf/release/rgb_lamp_wifi --baud 1500000
+espflash flash target/riscv32imac-unknown-none-elf/release/light_wifi --baud 1500000
 ```
 
 ### Monitor
